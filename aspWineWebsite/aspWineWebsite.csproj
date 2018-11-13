@@ -125,6 +125,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Images\the-vineyards.jpg" />
+    <Content Include="Scripts\myScripts.js" />
     <Content Include="Wines.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Images\BeauneWines.JPG" />

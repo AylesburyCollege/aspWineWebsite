@@ -2,11 +2,50 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>Derek.s Wine Home Page</h1>
-   </div>
+    <header class="jumbotron">
+        <h1>Derek's Wine Home Page</h1>
+    </header>
 
-    <div class="row">
+    <section id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <section class="carousel-inner" role="listbox">
+         
+            <figure class="item active">
+                <img src="Images/the-vineyards.jpg" alt="Picture of a vineyard" title="Picture of a vineyard">
+                <figcaption class="carousel-caption">
+                    Picture of a vineyard
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <img src="..." alt="...">
+                <figure class="carousel-caption">
+                    ...
+                </figure>
+            </figure>
+            ...
+        </section>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </section>
+
+
+    <%-- <div class="row">
         <div class="col-md-4">
             <h2>Getting started</h2>
             <p>
@@ -35,6 +74,6 @@
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
         </div>
-    </div>
+    </div>--%>
 
 </asp:Content>
