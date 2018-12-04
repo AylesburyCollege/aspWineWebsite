@@ -6,3 +6,10 @@
     $("ul").append("<li>Lager</li>");
 });
 
+function validateForm() {
+    var x = document.forms["myForm"]["inputEmail3"].value;
+    if (x == "") {
+        alert("Email must be filled out!!!");
+        return false;
+    }
+}

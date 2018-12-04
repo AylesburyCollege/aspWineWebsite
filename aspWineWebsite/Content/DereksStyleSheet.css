@@ -65,3 +65,8 @@ nav li
     text-align:center;
     border:thin solid #000;
 }
+
+.form-control
+{
+    margin-bottom:50px;
+}
