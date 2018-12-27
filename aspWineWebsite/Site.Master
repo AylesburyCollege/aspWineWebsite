@@ -46,6 +46,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <img src="Images/grapes.jpg" style="height:40px; margin:5px; float:left" />
                     <a class="navbar-brand" runat="server" href="~/">Derek's Wines</a>
                 </div>
                 <div class="navbar-collapse collapse">
